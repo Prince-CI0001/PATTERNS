@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PATTERNS</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>MAXIMUM POSSIBLE PATTERNS</h1>
+        <form action="javascript:void(0)">
+            <div class="input-group">
+                <div>
+                    <input id="minimum" type="number" placeholder="Minimum length" name="text" required>
+                    <input id="maximum" type="number" placeholder="Maximum length" name="text" required>
+                </div>
+            </div>
+            <div class="button-group">
+                <button onclick="findPatterns()">Pattern</button>
+            </div>
+        </form>
+        <p class="display">
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
